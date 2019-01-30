@@ -69,7 +69,7 @@
 #define Z_ENABLE_PIN       PC11//PB3
 
 #define E0_STEP_PIN        PC9//PA8
-#define E0_DIR_PIN         PB12//PB15
+#define E0_DIR_PIN         PB5//PB15
 #define E0_ENABLE_PIN      PC12//PA9
 
 //

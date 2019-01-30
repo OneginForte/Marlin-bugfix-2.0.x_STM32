@@ -90,4 +90,4 @@
 // Misc.
 //
 #define LED_PIN            PC5
-#define SDSS               PA3
+#define SDSS               PA4

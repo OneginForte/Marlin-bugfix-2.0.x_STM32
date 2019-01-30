@@ -54,6 +54,7 @@
 #include "gcode/parser.h"
 #include "gcode/queue.h"
 
+#define DEBUG_DISABLE
 #define JTAG_DISABLE
 
 #if HAS_BUZZER && DISABLED(LCD_USE_I2C_BUZZER)

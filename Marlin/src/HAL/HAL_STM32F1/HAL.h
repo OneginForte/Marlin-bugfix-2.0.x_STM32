@@ -238,4 +238,4 @@ void HAL_enable_AdcFreerun(void);
 #define PARSED_PIN_INDEX(code, dval) parser.intval(code, dval)
 
 #define JTAG_DISABLE() afio_cfg_debug_ports(AFIO_DEBUG_SW_ONLY)
-#define JTAGSWD_DISABLE() afio_cfg_debug_ports(AFIO_DEBUG_NONE)
+//#define JTAGSWD_DISABLE() afio_cfg_debug_ports(AFIO_DEBUG_NONE)

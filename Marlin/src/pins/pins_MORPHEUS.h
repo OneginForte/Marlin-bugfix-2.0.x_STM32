@@ -36,7 +36,7 @@
 #define BOARD_NAME "STM32-Discover+RAMPS1.5"
 
 #define E2END 0xFFF
-#define JTAG_DISABLE
+#define DISABLE_DEBUG
 
 //
 // Limit Switches
@@ -56,8 +56,8 @@
 // Steppers
 //
 // X & Y enable are the same
-#define X_STEP_PIN         PC8//PB7
-#define X_DIR_PIN          PD2//PB6
+#define X_STEP_PIN         PC6//PB7
+#define X_DIR_PIN          PB4//PB6
 #define X_ENABLE_PIN       PA15//PB8
 
 #define Y_STEP_PIN         PC7//PB5

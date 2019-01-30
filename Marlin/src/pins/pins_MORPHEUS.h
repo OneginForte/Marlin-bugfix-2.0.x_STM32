@@ -36,6 +36,8 @@
 #define BOARD_NAME "STM32-Discover+RAMPS1.5"
 
 #define E2END 0xFFF
+#define JTAG_DISABLE
+
 //
 // Limit Switches
 //

@@ -55,7 +55,7 @@ typedef uint16_t hal_timer_t;
 #else
   #define STEP_TIMER_NUM 5 // for other boards, five is fine.
 #endif
-#define TEMP_TIMER_NUM 3  // index of timer to use for temperature
+#define TEMP_TIMER_NUM 1  // index of timer to use for temperature
 #define PULSE_TIMER_NUM STEP_TIMER_NUM
 
 #define TEMP_TIMER_PRESCALE     1000 // prescaler for setting Temp timer, 72Khz

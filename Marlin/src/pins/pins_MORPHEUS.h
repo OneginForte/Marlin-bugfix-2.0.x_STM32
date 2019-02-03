@@ -89,5 +89,27 @@
 //
 // Misc.
 //
+#define LCD_PINS_RS        PA4    // ST9720 CS
+#define LCD_PINS_ENABLE    PA7    // ST9720 DAT
+#define LCD_PINS_D4        PA5    // ST9720 CLK
+
+#define BTN_EN1            PB11
+#define BTN_EN2            PB12
+#define BTN_ENC            PB10
+
+#define SPI1_SCK           PA5
+#define SPI1_MISO          PA6
+#define SPI1_MOSI          PA7
+#define BEEPER_PIN         PC4
 #define LED_PIN            PC5
 #define SDSS               PA4
+
+#ifndef ST7920_DELAY_1
+#define ST7920_DELAY_1 DELAY_NS(125)
+#endif
+#ifndef ST7920_DELAY_2
+#define ST7920_DELAY_2 DELAY_NS(125)
+#endif
+#ifndef ST7920_DELAY_3
+#define ST7920_DELAY_3 DELAY_NS(125)
+#endif

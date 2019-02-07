@@ -67,6 +67,7 @@ The current Marlin dev team consists of:
  - Chris Pepper [[@p3p](https://github.com/p3p)] - UK
  - João Brazio [[@jbrazio](https://github.com/jbrazio)] - Brazil
  - Erik van der Zalm [[@ErikZalm](https://github.com/ErikZalm)] - Netherlands &nbsp; [![Flattr Erik](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=ErikZalm&url=https://github.com/MarlinFirmware/Marlin&title=Marlin&language=&tags=github&category=software)
+ - Evgeny Olkov [(https://github.com/OneginForte/)] - Russia some changes for stm32.
 
 ## License
 
